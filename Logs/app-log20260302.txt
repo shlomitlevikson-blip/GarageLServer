@@ -1,0 +1,115 @@
+2026-03-02 20:01:17.754 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-02 20:01:17.861 +02:00 [INF] Creating key {cbc47ca3-abe0-44cb-b67f-50eca2fb2fd7} with creation date 2026-03-02 18:01:17Z, activation date 2026-03-02 18:01:17Z, and expiration date 2026-05-31 18:01:17Z.
+2026-03-02 20:01:17.893 +02:00 [INF] Writing data to file 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys\key-cbc47ca3-abe0-44cb-b67f-50eca2fb2fd7.xml'.
+2026-03-02 20:01:18.133 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-02 20:01:18.137 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-02 20:01:18.236 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-02 20:01:18.239 +02:00 [INF] Hosting environment: Development
+2026-03-02 20:01:18.241 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-02 20:01:19.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger - null null
+2026-03-02 20:01:19.952 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger - 301 0 null 659.6152ms
+2026-03-02 20:01:19.961 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-02 20:01:20.124 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 163.4612ms
+2026-03-02 20:01:20.131 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui-standalone-preset.js - null null
+2026-03-02 20:01:20.130 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui.css - null null
+2026-03-02 20:01:20.131 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/swagger-ui-bundle.js - null null
+2026-03-02 20:01:20.195 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-03-02 20:01:20.195 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-03-02 20:01:20.200 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 69.2682ms
+2026-03-02 20:01:20.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui.css - 200 152034 text/css 71.1953ms
+2026-03-02 20:01:20.210 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-02 20:01:20.204 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-03-02 20:01:20.212 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-02 20:01:20.222 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 91.3331ms
+2026-03-02 20:01:20.225 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 14.738ms
+2026-03-02 20:01:20.288 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.4304ms
+2026-03-02 20:01:20.532 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-02 20:01:20.551 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.1805ms
+2026-03-02 20:01:20.562 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/favicon-32x32.png - null null
+2026-03-02 20:01:20.566 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-03-02 20:01:20.568 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/favicon-32x32.png - 200 628 image/png 7.3416ms
+2026-03-02 20:02:02.586 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:02:02.732 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-02 20:02:02.740 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-02 20:02:02.743 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 401 0 null 158.8667ms
+2026-03-02 20:02:21.110 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:02:21.130 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-02 20:02:21.134 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-02 20:02:21.136 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 401 0 null 26.1635ms
+2026-03-02 20:02:22.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:02:22.049 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-02 20:02:22.052 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-02 20:02:22.054 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 401 0 null 17.1045ms
+2026-03-02 20:02:23.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:02:23.335 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-02 20:02:23.338 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-02 20:02:23.340 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 401 0 null 10.9978ms
+2026-03-02 20:02:24.123 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:02:24.131 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-02 20:02:24.134 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-02 20:02:24.137 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 401 0 null 13.7924ms
+2026-03-02 20:02:24.385 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:02:24.390 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-03-02 20:02:24.392 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-03-02 20:02:24.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 401 0 null 9.6763ms
+2026-03-02 20:04:21.385 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-02 20:04:21.703 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-02 20:04:21.706 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-02 20:04:21.776 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-02 20:04:21.780 +02:00 [INF] Hosting environment: Development
+2026-03-02 20:04:21.781 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-02 20:04:22.658 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-02 20:04:22.947 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 302.863ms
+2026-03-02 20:04:22.955 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-02 20:04:22.956 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-02 20:04:23.000 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 44.7869ms
+2026-03-02 20:04:23.043 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.6868ms
+2026-03-02 20:04:23.158 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-02 20:04:23.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.8569ms
+2026-03-02 20:04:30.456 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:04:30.533 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-02 20:04:30.567 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-02 20:09:49.372 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-02 20:09:49.695 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-02 20:09:49.699 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-02 20:09:49.777 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-02 20:09:49.780 +02:00 [INF] Hosting environment: Development
+2026-03-02 20:09:49.783 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-02 20:09:50.517 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-02 20:09:50.877 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-02 20:09:50.877 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 375.363ms
+2026-03-02 20:09:50.878 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-02 20:09:50.899 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 19.752ms
+2026-03-02 20:09:50.984 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.9281ms
+2026-03-02 20:09:51.041 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-02 20:09:51.060 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.6455ms
+2026-03-02 20:12:13.092 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:12:13.229 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-02 20:12:13.255 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-02 20:29:40.784 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-02 20:29:41.022 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-02 20:29:41.025 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-02 20:29:41.095 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-02 20:29:41.098 +02:00 [INF] Hosting environment: Development
+2026-03-02 20:29:41.100 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-02 20:29:41.741 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-02 20:29:41.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 227.359ms
+2026-03-02 20:29:41.960 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-02 20:29:41.960 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-02 20:29:41.979 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 19.441ms
+2026-03-02 20:29:42.017 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2843ms
+2026-03-02 20:29:42.074 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-02 20:29:42.083 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.4394ms
+2026-03-02 20:29:50.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-02 20:29:50.585 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-02 20:29:50.618 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-02 20:29:58.623 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2026-03-02 20:29:58.633 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1) in 8007.3805ms
+2026-03-02 20:29:58.635 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-02 20:29:58.641 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 400 null text/plain; charset=utf-8 8155.0889ms

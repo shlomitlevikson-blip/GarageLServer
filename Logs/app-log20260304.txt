@@ -1,0 +1,156 @@
+2026-03-04 10:05:45.669 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 10:05:46.027 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-04 10:05:46.031 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-04 10:05:46.224 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 10:05:46.225 +02:00 [INF] Hosting environment: Development
+2026-03-04 10:05:46.228 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-04 10:05:46.681 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-04 10:05:46.973 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 308.2844ms
+2026-03-04 10:05:46.974 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-04 10:05:46.974 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-04 10:05:47.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 29.8972ms
+2026-03-04 10:05:47.037 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.8797ms
+2026-03-04 10:05:47.088 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-04 10:05:47.104 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.392ms
+2026-03-04 10:07:38.211 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/export - null null
+2026-03-04 10:07:38.361 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.Export (Lital1)'
+2026-03-04 10:07:38.403 +02:00 [INF] Route matched with {action = "Export", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:07:38.931 +02:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'SparePart'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-03-04 10:07:39.651 +02:00 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[IsAvailable], [s].[PartCode], [s].[PartName], [s].[Price]
+FROM [SpareParts] AS [s]
+2026-03-04 10:07:39.730 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lital1.Classes.SparePart, Lital1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-04 10:07:39.757 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.Export (Lital1) in 1345.4064ms
+2026-03-04 10:07:39.760 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.Export (Lital1)'
+2026-03-04 10:07:39.768 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/export - 200 null application/json; charset=utf-8 1558.1599ms
+2026-03-04 10:15:11.801 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 10:15:12.064 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-04 10:15:12.067 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-04 10:15:12.140 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 10:15:12.143 +02:00 [INF] Hosting environment: Development
+2026-03-04 10:15:12.145 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-04 10:15:12.641 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-04 10:15:13.363 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 731.8158ms
+2026-03-04 10:15:13.363 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-04 10:15:13.363 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-04 10:15:13.387 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 23.6195ms
+2026-03-04 10:15:13.421 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.751ms
+2026-03-04 10:15:13.484 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-04 10:15:13.498 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.3386ms
+2026-03-04 10:17:51.745 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 10:17:51.968 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-04 10:17:51.972 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-04 10:17:52.044 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 10:17:52.047 +02:00 [INF] Hosting environment: Development
+2026-03-04 10:17:52.051 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-04 10:17:52.731 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-04 10:17:53.088 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 368.5499ms
+2026-03-04 10:17:53.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-04 10:17:53.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-04 10:17:53.121 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 27.1008ms
+2026-03-04 10:17:53.149 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.8153ms
+2026-03-04 10:17:53.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-04 10:17:53.223 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.3589ms
+2026-03-04 10:19:33.182 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:19:33.203 +02:00 [INF] CORS policy execution successful.
+2026-03-04 10:19:33.297 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:19:33.331 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:19:36.485 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1) in 3145.6092ms
+2026-03-04 10:19:36.491 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:19:36.501 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file 'C:\Users\Owner\source\repos\Lital1\Lital1\spareparts.json'.
+File name: 'C:\Users\Owner\source\repos\Lital1\Lital1\spareparts.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Lital1.Controllers.PersonalAreaController.ShowAllSpareParts() in C:\Users\Owner\source\repos\Lital1\Lital1\Controllers\PersonalAreaController.cs:line 39
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-03-04 10:19:36.564 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 500 null text/plain; charset=utf-8 3383.9826ms
+2026-03-04 10:19:41.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:19:41.929 +02:00 [INF] CORS policy execution successful.
+2026-03-04 10:19:41.932 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:19:41.939 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:21:20.192 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 10:21:20.436 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-04 10:21:20.440 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-04 10:21:20.512 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 10:21:20.514 +02:00 [INF] Hosting environment: Development
+2026-03-04 10:21:20.517 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-04 10:21:21.294 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-04 10:21:21.633 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 350.6712ms
+2026-03-04 10:21:21.644 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-04 10:21:21.644 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-04 10:21:21.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 16.8937ms
+2026-03-04 10:21:21.710 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.4428ms
+2026-03-04 10:21:21.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-04 10:21:21.776 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0877ms
+2026-03-04 10:21:42.389 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:21:42.462 +02:00 [INF] CORS policy execution successful.
+2026-03-04 10:21:42.565 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:21:42.597 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:21:48.271 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lital1.Classes.SparePart, Lital1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-04 10:21:48.288 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1) in 5659.6021ms
+2026-03-04 10:21:48.291 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:21:48.293 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 200 null application/json; charset=utf-8 5903.988ms
+2026-03-04 10:22:01.726 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:22:01.732 +02:00 [INF] CORS policy execution successful.
+2026-03-04 10:22:01.735 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:22:01.752 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:29:23.973 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lital1.Classes.SparePart, Lital1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-04 10:29:23.989 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1) in 442235.1338ms
+2026-03-04 10:29:23.991 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:29:23.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 200 null application/json; charset=utf-8 442267.6072ms
+2026-03-04 10:31:25.230 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:31:25.242 +02:00 [INF] CORS policy execution successful.
+2026-03-04 10:31:25.252 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:31:25.254 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:36:56.977 +02:00 [INF] User profile is available. Using 'C:\Users\Owner\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-03-04 10:36:57.212 +02:00 [INF] Now listening on: https://localhost:7053
+2026-03-04 10:36:57.217 +02:00 [INF] Now listening on: http://localhost:5025
+2026-03-04 10:36:57.279 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-04 10:36:57.282 +02:00 [INF] Hosting environment: Development
+2026-03-04 10:36:57.284 +02:00 [INF] Content root path: C:\Users\Owner\source\repos\Lital1\Lital1
+2026-03-04 10:36:57.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/index.html - null null
+2026-03-04 10:36:58.156 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/index.html - 200 null text/html;charset=utf-8 228.5863ms
+2026-03-04 10:36:58.165 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_vs/browserLink - null null
+2026-03-04 10:36:58.165 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - null null
+2026-03-04 10:36:58.188 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 23.3966ms
+2026-03-04 10:36:58.231 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.9177ms
+2026-03-04 10:36:58.270 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - null null
+2026-03-04 10:36:58.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.3071ms
+2026-03-04 10:38:15.666 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:38:15.788 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:38:15.811 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:38:20.171 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lital1.Classes.SparePart, Lital1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-04 10:38:20.195 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1) in 4376.4172ms
+2026-03-04 10:38:20.198 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:38:20.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 200 null application/json; charset=utf-8 4533.9531ms
+2026-03-04 10:38:33.569 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - null null
+2026-03-04 10:38:33.643 +02:00 [INF] CORS policy execution successful.
+2026-03-04 10:38:33.649 +02:00 [INF] Executing endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:38:33.654 +02:00 [INF] Route matched with {action = "ShowAllSpareParts", controller = "PersonalArea"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ShowAllSpareParts() on controller Lital1.Controllers.PersonalAreaController (Lital1).
+2026-03-04 10:38:42.414 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Lital1.Classes.SparePart, Lital1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-03-04 10:38:42.426 +02:00 [INF] Executed action Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1) in 8764.7281ms
+2026-03-04 10:38:42.430 +02:00 [INF] Executed endpoint 'Lital1.Controllers.PersonalAreaController.ShowAllSpareParts (Lital1)'
+2026-03-04 10:38:42.436 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7053/api/personalarea/showAllSpareParts - 200 null application/json; charset=utf-8 8867.0776ms
